@@ -1,5 +1,5 @@
 # Lidar
-obstacle detection using scanse sweep
+Getting Scanse Sweep to work using ROS
 
 # Set-Up
 ### Download & Install the SDK
@@ -29,5 +29,9 @@ chmod 777 /dev/ttyUSB0
 
 ### Run the Node:
 ```bash
+# Without visualization:
+roslaunch sweep_ros sweep.launch
+# or with visualization:
 roslaunch sweep_ros view_sweep_pc2.launch 
+
 ```
